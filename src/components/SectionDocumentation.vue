@@ -7,8 +7,8 @@
       <strong>прифатена лизинг понуда</strong>, потребно е да се приложат и:
     </p>
     <ul>
-      <li v-for="element in myList" :key="element.title">
-        <p class="mb-0 ps-4">
+      <li v-for="element in myList" :key="element.title" class="ms-4">
+        <p class="mb-0">
           {{ element.description }}
           <a :href="element.link">{{ element.linkedText }}</a>
         </p>

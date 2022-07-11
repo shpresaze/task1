@@ -2,10 +2,12 @@
   <section>
     <h1>{{ title }}</h1>
     <ol>
-      <li v-for="element in myList" :key="element.title">
-        <p class="mb-0 fs-5">{{ element.title }}</p>
-        <p>{{ element.description }}</p>
-        <p>{{ element.boldedDescription }}</p>
+      <li v-for="element in myList" :key="element.title" class="ms-4 fs-5">
+        <p class="mb-0">{{ element.title }}</p>
+        <p class="fs-6">{{ element.description }}</p>
+        <p>
+          <strong>{{ element.boldedDescription }}</strong>
+        </p>
       </li>
     </ol>
   </section>
