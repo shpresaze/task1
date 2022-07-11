@@ -1,1 +1,5 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+.ratio-5x3 {
+    --bs-aspect-ratio: calc(3 / 5 * 100%);
+  }
