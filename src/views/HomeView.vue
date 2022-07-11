@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="p-4">
     <section-image />
     <section-steps
       title="Чекори за купување возило на лизинг:"

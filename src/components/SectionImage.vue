@@ -2,6 +2,7 @@
   <section class="container">
     <img
       src="../assets/images/first-image.jpg"
+      alt="first-image.jpg"
       class="ratio ratio-131x108 img-fluid mb-4"
     />
     <p>
@@ -23,6 +24,6 @@
 
 <script>
 export default {
-    name="SectionImage"
+  name: "SectionImage",
 };
 </script>

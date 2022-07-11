@@ -15,6 +15,7 @@
 
 <script>
 export default {
+  name: "SectionSteps",
   props: {
     title: {
       type: String,
