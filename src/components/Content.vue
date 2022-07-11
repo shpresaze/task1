@@ -2,7 +2,7 @@
   <div class="container">
     <img
       src="../assets/images/first-image.jpg"
-      class="ratio ratio-131x108 img-fluid"
+      class="ratio ratio-131x108 img-fluid mb-4"
     />
     <p>
       Доколку сакате да купите возило на лизинг Ве молиме детално прегледајте ги
