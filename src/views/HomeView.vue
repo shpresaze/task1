@@ -19,15 +19,15 @@
 
 <script>
 import SectionSteps from "../components/SectionSteps.vue";
-import SectionDocumentation from "../components/SectionDocumentation.vue";
 import SectionImage from "../components/SectionImage.vue";
 import SectionWarning from "../components/SectionWarning.vue";
+import SectionDocumentation from "../components/SectionDocumentation.vue";
 export default {
   components: {
     SectionSteps,
-    SectionDocumentation,
     SectionImage,
     SectionWarning,
+    SectionDocumentation,
   },
   data() {
     return {
