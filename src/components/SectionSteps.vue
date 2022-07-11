@@ -21,7 +21,7 @@ export default {
       required: true,
     },
     steps: {
-      type: [],
+      type: Array,
       required: true,
     },
   },

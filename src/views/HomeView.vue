@@ -23,6 +23,7 @@ import SectionImage from "../components/SectionImage.vue";
 import SectionWarning from "../components/SectionWarning.vue";
 import SectionDocumentation from "../components/SectionDocumentation.vue";
 export default {
+  name: "HomeView",
   components: {
     SectionSteps,
     SectionImage,

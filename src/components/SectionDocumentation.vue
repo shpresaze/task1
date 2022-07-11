@@ -32,13 +32,14 @@
 
 <script>
 export default {
+  name: "SectionDocumentation",
   props: {
     title: {
       type: String,
       required: false,
     },
     documents: {
-      type: [],
+      type: Array,
       required: true,
     },
   },
