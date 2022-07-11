@@ -10,7 +10,7 @@
       <li v-for="document in documents" :key="document.title" class="ms-4">
         <p class="mb-0">
           {{ document.description }}
-          <a :href="document.link"
+          <a :href="document.link" target="”_blank”"
             ><strong>{{ document.linkedText }}</strong></a
           >
         </p>
