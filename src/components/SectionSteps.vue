@@ -1,12 +1,12 @@
 <template>
-  <section>
+  <section class="container">
     <h1>{{ title }}</h1>
     <ol>
-      <li v-for="element in myList" :key="element.title" class="ms-4 fs-5">
-        <p class="mb-0">{{ element.title }}</p>
-        <p class="fs-6">{{ element.description }}</p>
+      <li v-for="step in steps" :key="step.title" class="ms-4 fs-5">
+        <p class="mb-0">{{ step.title }}</p>
+        <p class="fs-6">{{ step.description }}</p>
         <p>
-          <strong>{{ element.boldedDescription }}</strong>
+          <strong>{{ step.description2 }}</strong>
         </p>
       </li>
     </ol>
@@ -18,9 +18,9 @@ export default {
   props: {
     title: {
       type: String,
-      required: false,
+      required: true,
     },
-    myList: {
+    steps: {
       type: [],
       required: true,
     },

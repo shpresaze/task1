@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="container">
     <h1>{{ title }}</h1>
     <p>
       Со пополнето барање за одобрување на лизинг,
@@ -7,10 +7,12 @@
       <strong>прифатена лизинг понуда</strong>, потребно е да се приложат и:
     </p>
     <ul>
-      <li v-for="element in myList" :key="element.title" class="ms-4">
+      <li v-for="document in documents" :key="document.title" class="ms-4">
         <p class="mb-0">
-          {{ element.description }}
-          <a :href="element.link">{{ element.linkedText }}</a>
+          {{ document.description }}
+          <a :href="document.link"
+            ><strong>{{ document.linkedText }}</strong></a
+          >
         </p>
       </li>
     </ul>
@@ -35,7 +37,7 @@ export default {
       type: String,
       required: false,
     },
-    myList: {
+    documents: {
       type: [],
       required: true,
     },
